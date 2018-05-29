@@ -63,14 +63,12 @@ class Main extends egret.DisplayObjectContainer {
     }
 
     private async runGame() {
-        await this.loadResource()
-        this.createGameScene();
+        let loadingView = await this.loadResource()
+        this.createGameScene(function (){
+            this.stage.removeChild(loadingView)
+        });
         const result = await RES.getResAsync("description_json")
         this.startAnimation(result);
-        await platform.login();
-        const userInfo = await platform.getUserInfo();
-        console.log(userInfo);
-
     }
 
     private async loadResource() {
@@ -79,7 +77,7 @@ class Main extends egret.DisplayObjectContainer {
             this.stage.addChild(loadingView);
             await RES.loadConfig("resource/default.res.json", "resource/");
             await RES.loadGroup("preload", 0, loadingView);
-            this.stage.removeChild(loadingView);
+            return loadingView;
         }
         catch (e) {
             console.error(e);
@@ -92,7 +90,7 @@ class Main extends egret.DisplayObjectContainer {
      * 创建游戏场景
      * Create a game scene
      */
-    private createGameScene() {
+    private createGameScene(cb:Function) {
         let sky = this.createBitmapByName("bg_png");
         this.addChild(sky);
         let stageW = this.stage.stageWidth;
@@ -142,7 +140,7 @@ class Main extends egret.DisplayObjectContainer {
         textfield.x = 172;
         textfield.y = 135;
         this.textfield = textfield;
-
+        cb && cb();
 
     }
 

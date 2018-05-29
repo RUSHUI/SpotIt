@@ -1,16 +1,11 @@
 {
 	"groups": [
 		{
-			"keys": "bg_jpg,egret_icon_png,description_json,Bomb-Icon_png,Boob-Effect_png,RandomResult-Icon_png,Reword-Icon_png,bg_png,broom_png,eye_png,1_png,2_png,3_png,4_png,5_png,6_png,12_png,22_png,32_png,42_png,13_png,23_png,33_png,43_png,52_png,62_png,7_png,8_png,14_png,24_png,34_png,44_png,53_png,63_png,15_png,25_png,35_png,45_png,54_png,64_png,72_png,82_png,9_png,16_png,26_png,36_png,46_png,55_png,65_png,73_png,17_png,27_png,37_png,47_png,56_png,18_png,28_png,38_png,48_png,19_png,10_png,29_png,39_png,49_png,57_png,66_png,74_png,83_png,92_png,110_png,210_png,310_png,111_png,211_png,311_png,112_png,212_png,312_png,410_png,58_png,67_png,113_png,213_png,313_png,411_png,59_png,68_png,114_png,214_png,314_png,412_png,510_png,69_png,115_png,215_png,315_png,413_png,511_png,610_png,75_png,116_png,102_png,11_png,122_png,132_png,142_png,152_png,162_png,216_png,316_png,414_png,512_png,611_png,76_png,84_png,93_png,117_png,217_png,317_png,415_png,513_png,612_png,77_png,85_png,118_png,218_png,318_png,416_png,119_png,219_png,120_png,220_png,121_png,123_png,221_png,124_png,222_png,125_png,103_png,1110_png,223_png,319_png,417_png,514_png,613_png,78_png,86_png,94_png,126_png,224_png,320_png,418_png,127_png,225_png,321_png,419_png,515_png,614_png,79_png,87_png,128_png,226_png,322_png,420_png,516_png,615_png,710_png,129_png,227_png,323_png,421_png,517_png,616_png,711_png,88_png,95_png,130_png,228_png,324_png,422_png,518_png,617_png,712_png,131_png,229_png,325_png,423_png,519_png,618_png,713_png,0_png,133_png,104_png,1111_png,1210_png,134_png,143_png,153_png,163_png,172_png,182_png,192_png,230_png,20_png,326_png,424_png,520_png,619_png,714_png,89_png,96_png",
+			"keys": "egret_icon_png,description_json,Bomb-Icon_png,Boob-Effect_png,RandomResult-Icon_png,Reword-Icon_png,bg_png,broom_png,eye_png,1_png,2_png,3_png,4_png,5_png,6_png,12_png,22_png,32_png,42_png,13_png,23_png,33_png,43_png,52_png,62_png,7_png,8_png,14_png,24_png,34_png,44_png,53_png,63_png,15_png,25_png,35_png,45_png,54_png,64_png,72_png,82_png,9_png,16_png,26_png,36_png,46_png,55_png,65_png,73_png,17_png,27_png,37_png,47_png,56_png,18_png,28_png,38_png,48_png,19_png,10_png,29_png,39_png,49_png,57_png,66_png,74_png,83_png,92_png,110_png,210_png,310_png,111_png,211_png,311_png,112_png,212_png,312_png,410_png,58_png,67_png,113_png,213_png,313_png,411_png,59_png,68_png,114_png,214_png,314_png,412_png,510_png,69_png,115_png,215_png,315_png,413_png,511_png,610_png,75_png,116_png,102_png,11_png,122_png,132_png,142_png,152_png,162_png,216_png,316_png,414_png,512_png,611_png,76_png,84_png,93_png,117_png,217_png,317_png,415_png,513_png,612_png,77_png,85_png,118_png,218_png,318_png,416_png,119_png,219_png,120_png,220_png,121_png,123_png,221_png,124_png,222_png,125_png,103_png,1110_png,223_png,319_png,417_png,514_png,613_png,78_png,86_png,94_png,126_png,224_png,320_png,418_png,127_png,225_png,321_png,419_png,515_png,614_png,79_png,87_png,128_png,226_png,322_png,420_png,516_png,615_png,710_png,129_png,227_png,323_png,421_png,517_png,616_png,711_png,88_png,95_png,130_png,228_png,324_png,422_png,518_png,617_png,712_png,131_png,229_png,325_png,423_png,519_png,618_png,713_png,0_png,133_png,104_png,1111_png,1210_png,134_png,143_png,153_png,163_png,172_png,182_png,192_png,230_png,20_png,326_png,424_png,520_png,619_png,714_png,89_png,96_png",
 			"name": "preload"
 		}
 	],
 	"resources": [
-		{
-			"name": "bg_jpg",
-			"type": "image",
-			"url": "assets/bg.jpg"
-		},
 		{
 			"name": "egret_icon_png",
 			"type": "image",
